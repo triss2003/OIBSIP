@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="landingpage.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="wave">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <img src="logo.png">
+        </nav>
+        <div class="main-content">
+            <div class="image-pista">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img1.png"></div>
+                      <div class="swiper-slide"><img src="img2.png"></div>
+                      <div class="swiper-slide"><img src="img3.png"></div>
+                    </div>
+                  </div>
+                 </div>
+            <div class="main-text">
+                <h1>The<br> Pistachios</h1>
+                <p>Pistachios are rich in a variety of nutrients and may support weight loss, gut health, blood sugar control, and heart health. They are also versatile and can be enjoyed in many recipes.</p>
+                <button>Know more..</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="img4.png">
+                </div>
+                <div class="inner-box">
+                    <h3>100% Organic</h3>
+                    <p>Fresh from the farm,to your basket.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img5.png">
+                </div>
+                <div class="inner-box">
+                    <h3>Not expensive</h3>
+                    <p>Budget friendly for a healthy diet.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img6.png">
+                </div>
+                <div class="inner-box">
+                    <h3>Super Healthy</h3>
+                    <p> Pista are very rich in Vitamin B6.</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+         });
+      </script>
+</body>
+</html>
